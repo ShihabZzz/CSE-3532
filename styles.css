@@ -1,0 +1,281 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* global ends */
+
+/* Task 1: Fancy Buttons */
+.flex-containerOne {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-containerOne button {
+    margin-left: 20px;
+}
+
+.flex-containerTwo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.flex-containerTwo button {
+    margin-left: 20px;
+}
+
+.button-style {
+    border: none;
+    padding: 10px 20px;
+    width: 220px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 25px;
+    color: aliceblue;
+}
+
+.btnOne {
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
+}
+
+.btnTwo {
+    background-image: linear-gradient(to right, #43cea2 0%, #185a9d 51%, #43cea2 100%);
+}
+
+.btnThree {
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+}
+
+.btnFour {
+    background-image: linear-gradient(to right, #fd746c 0%, #ff9068 51%, #fd746c 100%);
+}
+
+/* Task 1: Fancy Buttons ends  */
+
+/* TASK 2: CARD GROUPS */
+.flex-card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #edf2f7;
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
+
+.card img,
+.card h3,
+.card p {
+    padding: 10px;
+}
+
+.card button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+/* TASK 2: CARD GROUPS ends*/
+
+/* TASK 3: SIMPLE FORM */
+.form-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.form-flex div {
+    margin-left: 80px;
+}
+
+.formOne {
+    padding: 30px;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.formOne p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.formOne img {
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.formOne button {
+    width: 100%;
+    height: 25px;
+    border: none;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.formTwo button {
+    width: 100%;
+    height: 25px;
+    border: none;
+    font-size: medium;
+    color: aliceblue;
+}
+
+/* TASK 3: SIMPLE FORM ends*/
+
+/* TASK 4: SIMPLE CALENDAR */
+.calendar-title {
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 500px;
+}
+
+.calendar-title h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.calendar-title ol {
+    list-style-type: none;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-right: 20px;
+}
+
+.day-style {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.date-style {
+    text-align: center;
+    background-color: skyblue;
+}
+
+.date-styleTwo {
+    text-align: center;
+    background-color: grey;
+}
+
+/* TASK 4: SIMPLE CALENDAR ends*/
+
+/* TASK 5: SIMPLE FLEXBOX */
+
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    max-width: 1000px;
+    margin-left: 500px;
+}
+
+.innerBoxOne {
+    display: flex;
+    background-color: dodgerblue;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+
+.innerBoxTwo {
+    display: flex;
+    background-color: dodgerblue;
+    margin: 30px;
+    justify-content: center;
+}
+
+.coreBoxOne {
+    background-color: white;
+    margin: 20px;
+    padding: 80px;
+}
+
+.coreBoxTwo {
+    background-color: white;
+    margin: 20px;
+    padding: 80px;
+}
+
+/* TASK 5: SIMPLE FLEXBOX ends*/
+
+/* TASK 6: SIMPLE BANNER SECTION */
+.section-container {
+    background-color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.banner-text button {
+    border: none;
+    border-radius: 15px;
+    width: 20%;
+    height: 30px;
+    background-color: #64c6ff;
+    font-weight: bold;
+}
+
+/* TASK 6: SIMPLE BANNER SECTION ends*/
+
+/* TASK 7: SIMPLE FOOTER SECTION */
+.footerX {
+    background-color: #24262b;
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.copy-right {
+    text-align: center;
+}
+
+.footer-conatiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-conatiner a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-conatiner ul {
+    list-style-type: none;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+/* TASK 7: SIMPLE FOOTER SECTION ends*/

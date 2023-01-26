@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2d5787ea84.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Task 1: Fancy Buttons -->
+    <div class="taskOne">
+        <h1>Task 1: Fancy Buttons</h1>
+        <div class="flex-containerOne">
+            <button class="button-style btnOne">LOG IN <i class="fas fa-sign-in-alt"></i></button>
+            <button class="button-style btnTwo">ADD TO CART <i class="fas fa-cart-plus"></i></button>
+        </div>
+        <div class="flex-containerTwo">
+            <button class="button-style btnThree">DOWNLOAD <i class="fas fa-arrow-down"></i></button>
+            <button class="button-style btnFour">COMMENT <i class="fas fa-comment-alt"></i></button>
+        </div>
+    </div>
+    <!-- Task 1: Fancy Buttons ends -->
+
+    <!-- TASK 2: CARD GROUPS -->
+    <div class="taskTwo">
+        <h1>TASK 2: CARD GROUPS</h1>
+        <div class="flex-card">
+
+            <div class="card">
+                <img src="assets/watch.jpg" alt="">
+                <h3>Watch</h3>
+                <p><em>Lorem ipsum dolor<br>sit amet consectetur adipisicing elit.</em></p>
+                <h4 style="color:orange">$100</h4>
+                <p style="color:goldenrod">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
+                <button style="background-color:orange">ADD TO CART</button>
+            </div>
+
+            <div class="card">
+                <img src="assets/shoe.jpeg" alt="">
+                <h3>Shoe</h3>
+                <p><em>Lorem ipsum dolor<br>sit amet consectetur adipisicing elit.</em></p>
+                <h4 style="color:rgb(107, 102, 214)" ;>$60</h4>
+                <p style="color:goldenrod">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
+                <button style="background-color:rgb(107, 102, 214)">ADD TO CART</button>
+            </div>
+
+            <div class="card">
+                <img src="assets/shirt.jpg" alt="">
+                <h3>T-Shirt</h3>
+                <p><em>Lorem ipsum dolor<br>sit amet consectetur adipisicing elit.</em></p>
+                <h4 style="color:red" ;>$15</h4>
+                <p style="color:goldenrod">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
+                <button style="background-color:red">ADD TO CART</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- TASK 2: CARD GROUPS ends-->
+
+    <!-- TASK 3: SIMPLE FORM -->
+    <div class="taskThree">
+        <h1>TASK 3: SIMPLE FORM</h1>
+        <div class="form-flex">
+
+            <div class="formOne">
+                <div class="top-img">
+                    <img src="assets/avatar.png" alt="avatar">
+                </div>
+                <form action="">
+                    <label for="name"></label><br>
+                    <input type="text" id="name" name="fname" value="" placeholder="User Name" size="50"
+                        style="border-radius: 5px;"><br>
+
+                    <label for="passOne"></label><br>
+                    <input type="password" id="passOne" name="passOne" value="" placeholder="Password" size="50"
+                        style="border-radius: 5px;"><br><br>
+
+                    <button style="background-color:red">Login</button>
+                </form>
+                <p>Not registered?<span style="color:rgb(235, 74, 74); font-weight: bold;"> Create an account</span></p>
+            </div>
+
+            <div class="formTwo">
+                <form action="">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" value="" placeholder="Alice" size="50"><br>
+
+                    <label for="Uname">User name</label><br>
+                    <input type="text" id="Uname" name="Uname" value="" placeholder="Alice039" size="50"><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" value="" placeholder="alice@example.com" size="50"><br>
+
+                    <label for="passOne">Password</label><br>
+                    <input type="password" id="passOne" name="passOne" value="" size="50"><br>
+
+                    <label for="passTwo">Confirm Password</label><br>
+                    <input type="password" id="passTwo" name="passTwo" value="" size="50"><br>
+
+                    <label for="message">Message</label><br>
+                    <textarea rows="3" cols="50">Write your message...</textarea><br>
+
+                    <button style="background-color:#64c6ff">Send</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <!-- TASK 3: SIMPLE FORM ends-->
+
+    <!-- TASK 4: SIMPLE CALENDAR -->
+    <div class="taskFour">
+        <h1>TASK 4: SIMPLE CALENDAR</h1>
+        <div class="calendar-title">
+            <h1>November 2017</h1>
+
+            <ol class="calendar">
+
+                <li class="day-style">S</li>
+                <li class="day-style">M</li>
+                <li class="day-style">T</li>
+                <li class="day-style">W</li>
+                <li class="day-style">T</li>
+                <li class="day-style">F</li>
+                <li class="day-style">S</li>
+
+                <li class="date-styleTwo">29</li>
+                <li class="date-styleTwo">30</li>
+                <li class="date-styleTwo">31</li>
+
+                <li class="date-style">1</li>
+                <li class="date-style">2</li>
+                <li class="date-style">3</li>
+                <li class="date-style">4</li>
+                <li class="date-style">5</li>
+                <li class="date-style">6</li>
+                <li class="date-style">7</li>
+                <li class="date-style">8</li>
+                <li class="date-style">9</li>
+                <li class="date-style">10</li>
+                <li class="date-style">11</li>
+                <li class="date-style">12</li>
+                <li class="date-style">13</li>
+                <li class="date-style">14</li>
+                <li class="date-style">15</li>
+                <li class="date-style">16</li>
+                <li class="date-style">17</li>
+                <li class="date-style">18</li>
+                <li class="date-style">19</li>
+                <li class="date-style">20</li>
+                <li class="date-style">21</li>
+                <li class="date-style">22</li>
+                <li class="date-style">23</li>
+                <li class="date-style">24</li>
+                <li class="date-style">25</li>
+                <li class="date-style">26</li>
+                <li class="date-style">27</li>
+                <li class="date-style">28</li>
+                <li class="date-style">29</li>
+                <li class="date-style">30</li>
+
+                <li class="date-styleTwo">1</li>
+                <li class="date-styleTwo">2</li>
+            </ol>
+        </div>
+    </div>
+    <!-- TASK 4: SIMPLE CALENDAR ends-->
+
+    <!-- TASK 5: SIMPLE FLEXBOX -->
+    <div class="taskFive">
+        <h1>TASK 5: SIMPLE FLEXBOX</h1>
+        <div class=mainBox>
+            <div class="innerBoxOne">
+                <div class="coreBoxOne"></div>
+                <div class="coreBoxOne"></div>
+                <div class="coreBoxOne"></div>
+            </div>
+
+            <div class="innerBoxTwo">
+                <div class="coreBoxTwo"></div>
+                <div class="coreBoxTwo"></div>
+                <div class="coreBoxTwo"></div>
+            </div>
+        </div>
+    </div>
+    <!-- TASK 5: SIMPLE FLEXBOX ends-->
+
+    <!-- TASK 6: SIMPLE BANNER SECTION -->
+    <h1>TASK 6: SIMPLE BANNER SECTION</h1>
+    <header style="background-color: #edf2f7;">
+        <section class="section-container">
+            <div class="banner-text">
+                <p style="color: grey; margin-bottom: 1px;">15,000 Sales</p>
+                <h1 style="color:#6C63FF">Dream Big<br>Think Different<br>Do Great</h1>
+                <button>Purchase Now</button>
+            </div>
+            <div>
+                <img style="width: 100%;" src="assets/banner.png" alt="">
+            </div>
+        </section>
+    </header>
+    <!-- TASK 6: SIMPLE BANNER SECTION ends-->
+
+    <!-- TASK 7: SIMPLE FOOTER SECTION -->
+    <h1>TASK 7: SIMPLE FOOTER SECTION</h1>
+    <footer class="footer-section">
+        <div class="footerX">
+            <div class="footer-conatiner">
+                <div class="footer-col">
+                    <h4 style="margin-left: 40px;">Comapny</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Affiliate Program</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 style="margin-left: 40px;">Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-colX">
+                    <h4>Foloow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copy-right">Copyright &copy; Footer 2023. All right reserved</p>
+        </div>
+    </footer>
+    <!-- TASK 7: SIMPLE FOOTER SECTION ends-->
+</body>
+
+</html>
